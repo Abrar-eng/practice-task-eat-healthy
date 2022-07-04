@@ -63,6 +63,8 @@ h1 {
 .recipe {
     text-align: center;
     color: black;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .half-width {
