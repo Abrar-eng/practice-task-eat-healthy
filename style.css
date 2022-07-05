@@ -113,3 +113,38 @@ footer {
     padding: 50px;
     margin-bottom: -112px;
 }
+
+.link-button:hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.link-button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.link-button:focus {
+    outline: none;
+}
+
+.link-button {
+    background: linear-gradient(to right, #00ccff 41%, #0066ff 100%);
+    box-shadow: 0 4px 15px 0 rgba(64, 46, 199, 0.75);
+}
